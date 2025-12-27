@@ -1,1 +1,43 @@
 /*  your css code here. If applicable */
+#grid{
+	display:grid;
+	grid-template-columns: repeat(4,auto);
+	grid-template-rows:repeat(5,100%);
+	gap:5px;
+}
+#grid div{
+	background-color:green;
+}
+.a{
+	grid-column:1/5;
+}
+.b{
+	grid-column:1/2;
+	grid-row:2/6;
+}
+.c{
+	grid-column:2/3;
+	/* grid-row:2/3; */
+}
+.d{
+	grid-column:3/5;
+}
+.e{
+	grid-column:2/4;
+}
+.f{
+	grid-column:4/5;
+}
+
+.g{
+	grid-column:2/3;
+}
+.h{
+	grid-column:3/4;
+}
+.i{
+	grid-column:4/5;
+}
+.j{
+	grid-column:2/5;
+}

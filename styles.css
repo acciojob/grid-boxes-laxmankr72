@@ -2,14 +2,14 @@
 #grid{
 	display:grid;
 	grid-template-columns: repeat(4,auto);
-	grid-template-rows:repeat(5,100%);
+	grid-template-rows:repeat(5,124px);
 	gap:5px;
 }
 #grid div{
 	background-color:green;
 }
 .a{
-	grid-column:1/5;
+	grid-column:span 4/auto;
 }
 .b{
 	grid-column:1/2;

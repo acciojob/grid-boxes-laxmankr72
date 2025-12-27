@@ -3,7 +3,7 @@
 	display:grid;
 	grid-template-columns: repeat(4,242.5px);
 	grid-template-rows:repeat(5,124px);
-	gap:5px;
+	gap:10px;
 }
 #grid div{
 	background-color:green;
